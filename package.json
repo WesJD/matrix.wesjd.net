@@ -1,7 +1,7 @@
 {
     "name": "website",
     "scripts": {
-        "build": "rm -rf build && node node_modules/babel-cli/bin/babel.js src --out-dir build --copy-files"
+        "build": "node node_modules/babel-cli/bin/babel.js src --out-dir build --copy-files"
     },
     "repository": {
         "type": "git",
