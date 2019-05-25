@@ -1,0 +1,19 @@
+#calculator {
+    width: 100vh;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+#equation {
+    margin-left: 1vw;
+}
