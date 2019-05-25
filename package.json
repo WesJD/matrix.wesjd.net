@@ -1,7 +1,7 @@
 {
     "name": "website",
     "scripts": {
-        "build": "node node_modules/babel-cli/bin/babel.js src --out-dir build --copy-files"
+        "build": "rm -rf build && node node_modules/babel-cli/bin/babel.js src --out-dir build --copy-files"
     },
     "repository": {
         "type": "git",
@@ -11,6 +11,6 @@
     "dependencies": {
         "babel-cli": "^6.26.0",
         "babel-preset-env": "^1.7.0",
-        "babel-preset-minify": "^0.5.0"
+        "babel-preset-minify": "^0.4.3"
     }
 }
